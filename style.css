@@ -1,0 +1,46 @@
+/* All */
+body {
+	width: 75%;
+	margin: 50px auto;
+}
+
+#main {
+	font-family: arial, sans-serif;
+}
+
+
+/* Page 1 (List) */
+.lst {
+	color: midnightblue;
+}
+
+.lst li:first-child {
+	color: black;
+}
+
+
+/* Page 2 (Table) */
+table {
+	text-align: center;
+}
+
+.table {
+	border: 2px solid #000;
+	border-collapse: collapse;
+}
+
+td, th {
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+.ausrow td {
+	font-style: italic;
+}
+
+
+/* Page 3 (Image) */
+img {
+	display: block;
+}
+/*mediaquery for image*/
